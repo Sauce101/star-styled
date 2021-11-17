@@ -74,15 +74,6 @@ export const HeroH1 = styled.h1`
   }
 `;
 
-/* @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
-@font-face {
-  font-family: "Aurebesh";
-  src: url("/fonts/Aurebesh.otf");
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-} */
-
 export const HeroP = styled.p`
   margin-top: 24px;
   color: #fff;
@@ -95,21 +86,4 @@ export const HeroP = styled.p`
   @media screen and (max-width: 480px) {
     font-size: 18px;
   }
-`;
-
-export const HeroBtnWrapper = styled.div`
-  margin-top: 32px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`;
-
-export const ArrowForward = styled(MdArrowForward)`
-  margin-left: 8px;
-  font-size: 20px;
-`;
-
-export const ArrowRight = styled(MdKeyboardArrowRight)`
-  margin-left: 8px;
-  font-size: 20px;
 `;
