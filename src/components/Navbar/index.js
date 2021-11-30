@@ -6,8 +6,6 @@ import {
   MobileIcon,
   Nav,
   NavbarContainer,
-  // NavBtn,
-  // NavBtnLink,
   NavItem,
   NavLinks,
   NavLogo,
@@ -39,7 +37,6 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              {/* dolla */}
               DS-1
             </NavLogo>
             <MobileIcon onClick={toggle}>
@@ -95,9 +92,6 @@ const Navbar = ({ toggle }) => {
                 </NavLinks>
               </NavItem>
             </NavMenu>
-            {/* <NavBtn>
-              <NavBtnLink to="/signin">Sign In</NavBtnLink>
-            </NavBtn> */}
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>
