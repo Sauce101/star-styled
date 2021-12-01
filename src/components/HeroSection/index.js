@@ -1,4 +1,4 @@
-import { Fade } from "react-awesome-reveal";
+// import { Fade } from "react-awesome-reveal";
 import Video from "../../videos/video.mp4";
 
 import {
@@ -16,9 +16,9 @@ const HeroSection = () => {
         <VideoBg playsInline autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <Fade delay={1000} duration={5000}>
-          <HeroH1>DEATH STAR</HeroH1>
-        </Fade>
+        <HeroH1 className="animate__animated animate__zoomIn">
+          DEATH STAR
+        </HeroH1>
       </HeroContent>
     </HeroContainer>
   );

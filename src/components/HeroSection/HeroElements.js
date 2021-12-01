@@ -54,6 +54,9 @@ export const HeroContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  .animate__animated.animate__zoomIn {
+    --animate-duration: 5s;
+  }
 `;
 
 export const HeroH1 = styled.h1`
