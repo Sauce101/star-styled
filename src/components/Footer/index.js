@@ -73,8 +73,7 @@ const Footer = () => {
               DS-1
             </SocialLogo>
             <WebsiteRights>
-              Michael Saucedo DS-1 © {new Date().getFullYear()} All rights
-              reserved.
+              DS-1 © 2021 - {new Date().getFullYear()}
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink href="/" target="_blank" aria-label="Facebook">
