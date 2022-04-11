@@ -1,12 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import App from "./App";
 import FontStyles from "./fontStyles";
 
-ReactDOM.render(
-  <React.StrictMode>
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <>
     <FontStyles />
     <App />
-  </React.StrictMode>,
-  document.getElementById("root")
+  </>
 );
